@@ -5,7 +5,7 @@ public class Child {
 	String city,state;
 	Parent ref;
 	
-	public Child(String city,String state,Parent ref)
+	public Child(String city,String state,Parent ref)//creating ref obj to parent class
 	{
 		this.ref=ref;
 		this.city=city;
